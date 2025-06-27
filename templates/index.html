@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Itachi Downloader Pro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body, html {
+      height: 100%;
+      background: url("/static/itachi-bg.png") no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      padding: 2rem;
+      color: #fff;
+      text-align: center;
+    }
+
+    .highlight-title {
+      font-size: 3.5rem;
+      font-weight: 700;
+      padding: 20px 40px;
+      display: inline-block;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.95); /* Dark solid background */
+      border-radius: 15px;
+      text-shadow:
+        0 0 10px #ff0000,
+        0 0 20px #ff0000,
+        0 0 30px #cc0000,
+        0 0 40px #990000;
+      box-shadow:
+        0 0 20px rgba(255, 0, 0, 0.5),
+        0 0 30px rgba(153, 0, 0, 0.5);
+      animation: glow 2s infinite alternate;
+    }
+
+    @keyframes glow {
+      from {
+        text-shadow:
+          0 0 5px #ff3333,
+          0 0 10px #ff3333,
+          0 0 15px #990000;
+      }
+      to {
+        text-shadow:
+          0 0 15px #ff0000,
+          0 0 25px #ff0000,
+          0 0 35px #990000;
+      }
+    }
+
+    .btn-group a {
+      display: inline-block;
+      margin: 10px;
+    }
+
+    .btn-group button {
+      padding: 15px 30px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 10px;
+      background: #ff1a1a;
+      color: white;
+      cursor: pointer;
+      box-shadow: 0 0 15px #ff1a1a;
+      transition: 0.3s;
+    }
+
+    .btn-group button:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 25px #ff4d4d;
+    }
+
+    .footer {
+      position: fixed;
+      bottom: 20px;
+      width: 100%;
+      text-align: center;
+      color: white;
+    }
+
+    .discord-btn {
+      background-color: #5865F2;
+      padding: 10px 20px;
+      border: none;
+      font-size: 16px;
+      border-radius: 30px;
+      box-shadow: 0 0 10px #5865F2;
+      color: white;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+
+    .discord-btn:hover {
+      background-color: #4752c4;
+      box-shadow: 0 0 15px #4752c4;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="highlight-title">Itachi Downloader Pro</h1>
+    <div class="btn-group">
+      <a href="/platform/youtube"><button>YouTube</button></a>
+      <a href="/platform/instagram"><button>Instagram</button></a>
+      <a href="/platform/facebook"><button>Facebook</button></a>
+      <a href="/platform/twitter"><button>X (Twitter)</button></a>
+      <a href="/platform/reddit"><button>Reddit</button></a>
+      <a href="/platform/terabox"><button>TeraBox</button></a>
+    </div>
+  </div>
+
+  <div class="footer">
+    <a href="https://discord.gg/nNfVQ9KSRJ" target="_blank">
+      <button class="discord-btn">💬 Join My Discord</button>
+    </a>
+    <p>Developed by <b>SHIVANSH ⚔</b> | Uchiha Itachi</p>
+  </div>
+</body>
+</html>
+
