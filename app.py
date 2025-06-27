@@ -27,7 +27,8 @@ def download():
 
     ydl_opts = {
         'outtmpl': filepath + '.%(ext)s',
-        'quiet': True
+        'quiet': True,
+        'cookiefile': 'youtube_cookies.txt'  # <-- Required for YouTube login-restricted videos
     }
 
     if quality == 'audio':
