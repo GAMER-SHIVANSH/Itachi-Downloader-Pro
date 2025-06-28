@@ -1,31 +1,10 @@
-# robots.txt file for YouTube
-# Created in the distant future (the year 2000) after
-# the robotic uprising of the mid 90's which wiped out all humans.
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
 
-User-agent: Mediapartners-Google*
-Disallow:
-
-User-agent: *
-Disallow: /api/
-Disallow: /comment
-Disallow: /feeds/videos.xml
-Disallow: /file_download
-Disallow: /get_video
-Disallow: /get_video_info
-Disallow: /get_midroll_info
-Disallow: /live_chat
-Disallow: /login
-Disallow: /qr
-Disallow: /results
-Disallow: /signup
-Disallow: /t/terms
-Disallow: /timedtext_video
-Disallow: /verify_age
-Disallow: /watch_ajax
-Disallow: /watch_fragments_ajax
-Disallow: /watch_popup
-Disallow: /watch_queue_ajax
-Disallow: /youtubei/
-
-Sitemap: https://www.youtube.com/sitemaps/sitemap.xml
-Sitemap: https://www.youtube.com/product/sitemap.xml
+.youtube.com	TRUE	/	TRUE	1751072973	GPS	1
+.youtube.com	TRUE	/	TRUE	1785631175	PREF	f6=40000000&tz=Asia.Calcutta
+.youtube.com	TRUE	/	TRUE	0	YSC	LUxWtvnxYgE
+.youtube.com	TRUE	/	TRUE	1766623174	VISITOR_INFO1_LIVE	qJxKYgrkhcw
+.youtube.com	TRUE	/	TRUE	1766623174	VISITOR_PRIVACY_METADATA	CgJJThIEGgAgXA%3D%3D
+.youtube.com	TRUE	/	TRUE	1766623174	__Secure-ROLLOUT_TOKEN	CPfH9fuyuZ_E1gEQ_ej4ufCSjgMYl46fuvCSjgM%3D
